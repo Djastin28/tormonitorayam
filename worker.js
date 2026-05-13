@@ -1,6 +1,6 @@
 
 // ── KONFIGURASI ────────────────────────────────────────────────
-const SB_URL = "https://vdwmxedqzcqvzinptyxm.supabase.co/rest/v1/";
+const SB_URL = "https://vdwmxedqzcqvzinptyxm.supabase.co";
 
 // ⚠️ GANTI DENGAN ANON KEY ASLI DARI:
 // Supabase Dashboard → Project Settings → API → anon public
