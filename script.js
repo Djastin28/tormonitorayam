@@ -5,7 +5,7 @@
 
 "use strict";
 
-const SUPABASE_URL = "https://vdwmxedqzcqvzinptyxm.supabase.co/rest/v1/";
+const SUPABASE_URL = "https://vdwmxedqzcqvzinptyxm.supabase.co";
 const SUPABASE_KEY = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InZkd214ZWRxemNxdnppbnB0eXhtIiwicm9sZSI6ImFub24iLCJpYXQiOjE3Nzg2NTY0OTgsImV4cCI6MjA5NDIzMjQ5OH0.PTkFvcHOqPgKd0P63SH4ub0tLwo-XlGBgect97vjQdM";
 
 const supabaseClient = supabase.createClient(SUPABASE_URL, SUPABASE_KEY);
