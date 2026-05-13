@@ -1,11 +1,11 @@
 
 // ── KONFIGURASI ────────────────────────────────────────────────
-const SB_URL = "https://fohlytdaudwwyadesmyz.supabase.co";
+const SB_URL = "https://vdwmxedqzcqvzinptyxm.supabase.co/rest/v1/";
 
 // ⚠️ GANTI DENGAN ANON KEY ASLI DARI:
 // Supabase Dashboard → Project Settings → API → anon public
 // Key asli berbentuk JWT panjang dimulai: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9...
-const SB_KEY = "sb_publishable_CS9duoQ3yDY2wm7gOgNgPQ_fQC8SYCg";
+const SB_KEY = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InZkd214ZWRxemNxdnppbnB0eXhtIiwicm9sZSI6ImFub24iLCJpYXQiOjE3Nzg2NTY0OTgsImV4cCI6MjA5NDIzMjQ5OH0.PTkFvcHOqPgKd0P63SH4ub0tLwo-XlGBgect97vjQdM";
 
 const CFG = {
   suhu:  { min: 24, max: 30 },
