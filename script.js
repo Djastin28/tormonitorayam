@@ -281,8 +281,7 @@ function subscribeRealtime() {
     .channel("public:tormonitor_ayam_logs")
     .on("postgres_changes", { event: "INSERT", schema: "public", table: "tormonitor_ayam_logs" }, payload => {
       updateMonitoringUI(payload.new);
-      addLog(`Update: Suhu=${payload.new.suhu}°C Pakan=${payload.new.stok_pakan}%`, "data");
-    })
+      addLog(`Update: Suhu=${payload.new.suhu}°C Kelembapan=${payload.new.kelembapan}% Pakan=${payload.new.stok_pakan}%`, "data");    })
     .subscribe();
 
   supabaseClient
